@@ -1,1 +1,73 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+} 
 
+.headerWrapper {
+	width: 72%;
+	height: 25%;
+	margin: .5em auto;
+}
+
+.contextWrapper {
+	padding: 0.5em 1em;
+}
+
+.lastItem {
+	float: right;
+}
+
+.textedLink {
+	text-decoration: none;
+	color: #064AB4;
+}
+
+.textedLink:hover {
+	text-decoration: underline;
+	color: #064AB4;
+}
+
+.strongText  {
+	font-weight: bold;
+}
+
+.contentText {
+	font-size: 125%;
+	font-family: sans-serif;
+	line-height: 140%;
+	text-align: justify;
+}
+
+.iconWrapper {
+	width: 100%;
+}
+
+.rowsWrapper{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.rowsIcon {
+	width: 100%;
+	margin: 0 auto 3em auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+.footerWrapper {
+	width: 70%;
+	height: 65px;
+	margin: -2em auto 30px auto;
+	border-top: 1px solid #AAAAAA;
+	text-align: center;
+}
+
+.disclosures {
+	padding: 0px 10px;
+}
+
+.endingStmt {
+	font-family: sans-serif;
+	font-size: 13px;
+}
